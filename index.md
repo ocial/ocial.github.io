@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: welcome
 title: Welcome
 image: /assets/img/me.jpg
 description: >
