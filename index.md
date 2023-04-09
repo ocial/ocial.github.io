@@ -4,6 +4,7 @@ title: Welcome
 image: /assets/img/me.jpg
 description: >
 hide_description: true
+cover: true
 ---
 <center>
 🌞 낮에는 개발자 / 🌜 밤에는 학생 / ⭐️ 주말엔 창업가로 활동하는 Ocial의 블로그입니다.<br>
