@@ -198,7 +198,8 @@ disqus:                ocial
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  # post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         [about, newsletter, comments]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
