@@ -25,8 +25,7 @@ title:                 Ocial's Blog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  낮에는 개발자 밤에는 학생 주말엔 창업가로 활동하는 Ocial의 블로그입니다.
 
 # A shorter description for the sidebar.
 tagline:               social - s = ocial
