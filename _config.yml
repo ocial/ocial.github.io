@@ -187,6 +187,10 @@ kramdown:
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:            giscus
+  giscus:
+    theme:             "dark_dimmed"
+    mapping:           "pathname"
+    label:             "Comments"
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -204,17 +208,6 @@ comments:
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
-giscus:
-  repo:                "ocial/ocial.github.io"
-  repo-id:             "R_kgDOJUsoaA"
-  category:            "Comments"
-  category-id:         "DIC_kwDOEHDTNc4B-MIg"
-  mapping:             "pathname"
-  reaction-enabled:    "1"
-  data-emit-metadata:  "0"
-  theme:               "dark_dimmed"
-  data-lang:           "en"
-  crossorigin:         "anonymous"
 
 lightbox:              true
 
