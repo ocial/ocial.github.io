@@ -205,8 +205,8 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo:                "ocial/ocial.github.io"
-  repo-id:             "R_kgDOJUsoaA="
+  repo:                "ocial/blog-comments-repo"
+  repo-id:             "R_kgDOJkgPPw"
   category:            "General"
   category-id:         "DIC_kwDOJUsoaM4CWkRU"
   mapping:             "pathname"
