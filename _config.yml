@@ -188,9 +188,10 @@ comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:            giscus
   giscus:
-    theme:             "dark_dimmed"
-    mapping:           "pathname"
-    label:             "Comments"
+    repo:              "ocial/ocial.github.io"
+    issue-term:          "pathname"
+    label:               "Comments"
+    theme:               "photon-dark"
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
