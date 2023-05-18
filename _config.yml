@@ -211,9 +211,7 @@ giscus:
   category-id:         "DIC_kwDOJUsoaM4CWkRU"
   mapping:             "pathname"
   reaction-enabled:    "1"
-  data-emit-metadata:  "0"
   theme:               "dark_dimmed"
-  data-lang:           "en"
   crossorigin:         "anonymous"
 
 
