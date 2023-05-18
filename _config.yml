@@ -186,7 +186,6 @@ kramdown:
 # Set which comment system to use
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
-  provider:            giscus
   giscus:
     repo:              "ocial/ocial.github.io"
     issue-term:        "pathname"
