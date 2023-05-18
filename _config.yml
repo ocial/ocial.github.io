@@ -207,8 +207,8 @@ comments:
 giscus:
   repo:                "ocial/ocial.github.io"
   repo-id:             "R_kgDOJUsoaA="
-  category:            "Comments"
-  category-id:         "DIC_kwDOEHDTNc4B-MIg"
+  category:            "General"
+  category-id:         "DIC_kwDOJUsoaM4CWkRU"
   mapping:             "pathname"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
