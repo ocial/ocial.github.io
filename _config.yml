@@ -149,6 +149,7 @@ defaults:
   - scope:
       type:            posts
     values:
+      applause_button: true
       comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
