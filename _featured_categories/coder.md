@@ -3,6 +3,7 @@ layout: list
 type: category
 title: Coder
 slug: coder
+sidebar: true
 menu: true
 submenu: true
 description: >
