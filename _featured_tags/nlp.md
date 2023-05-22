@@ -1,7 +1,7 @@
 ---
 layout: list
 type: tag
-title: NLP
+title: Natural Language Processing
 slug: nlp
 category: coder
 sidebar: true
