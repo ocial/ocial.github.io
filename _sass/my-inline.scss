@@ -31,7 +31,7 @@
   
   .list-wrapper {
     text-align: left;
-    width: 0rem;
+    width: 12rem;
     display: flex;
   }
   
@@ -43,7 +43,7 @@
   .sidebar-about {
     > a.sidebar-title {
       &::after {
-        width: 5rem;
+        width: 12rem;
       }
     }
   }
