@@ -27,10 +27,10 @@ ocial:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         <username>
-    # instagram:       mdocial
     github:          ocial
-    # email:           pyocial@gmail.com
     linkedin:        ocial
+    instagram:       mdocial
+    email:           pyocial@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
