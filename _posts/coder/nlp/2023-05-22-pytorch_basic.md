@@ -39,6 +39,14 @@ m2 = torch.FloatTensor([3])       # [3] -> [3, 3]
 print(m1 + m2)                    # tensor([[4., 5.]])
 
 
+# 행렬 곱셈
+a = torch.FloatTensor([[1, 2],
+                       [3, 4]])
+b = torch.FloatTensor([[1, 2],
+                       [1, 2]])
+c = torch.matmul(a, b)
+c                       # tensor([[ 3.,  6.], [ 7., 14.]])
+
 # 차원 변경 뷰(View)
 t = np.array([[[0, 1, 2],
                [3, 4, 5]],
