@@ -4,7 +4,7 @@ title: PyTorch 기본
 categories: [coder, nlp]
 tags:       [coder, nlp]
 description: >
-  Pytorch로 시작하는 딥러닝 입문
+  Pytorch로 시작하는 딥러닝 입문 (1/2)
 ---
 - Table of Contents
 {:toc .large-only}
@@ -67,6 +67,13 @@ ft.shape              # torch.Size([3, 1])
 ft.squeeze().shape    # torch.Size([3])
 
 
+# 1인 차원 추가 언스퀴즈(unsqueeze) - 특정 인덱스에 차원 추가
+ft = torch.FloatTensor([[1, 2], [3, 4]])
+
+ft.shape              # torch.size([2, 2])
+ft.unsqueeze(2)       # ft.reshape(2, 2, -1) / torch.size([2, 2, 1])
+
+
 # 타입 캐스팅
 lt = torch.LongTensor([1, 2, 3, 4])   # long 타입
 lt.float()                            # float 타입 tensor([1., 2., 3., 4.])
@@ -94,14 +101,26 @@ x = torch.FloatTensor([1, 4])
 y = torch.FloatTensor([2, 5])
 z = torch.FloatTensor([3, 6])
 
+
+# 연결하기(stack) - unsqueeze(차원추가) 후에 연결
+
 torch.stack([x, y, z])
 # tensor([[1., 4.],
-#         [2., 5.],
+#         [2., 5.], 
 #         [3., 6.]])
 
 torch.stack([x, y, z], dim=1)
 # tensor([[1., 2., 3.],
 #         [4., 5., 6.]])
+
+# (큰 행렬을 자르고 붙일때 유용하게 사용하는 방법)
+result = []
+for i in range(5):
+    x = torch.FloatTensor(2, 2)
+    result += x
+
+result = torch.stack(result)
+result.size()           #torch.Size([5, 2, 2])
 
 
 # 0 or 1로 채워진 텐서
@@ -124,4 +143,26 @@ x         # tensor([[1., 2.], [3., 4.]])
 
 x.mul_(2.)
 x         # tensor([[2., 4.], [6., 8.]])
+
+
+# 인덱스로 조회하기(index_select)
+x = torch.FloatTensor([[[1, 1],
+                        [2, 2]],
+                       [[3, 3],
+                        [4, 4]],
+                       [[5, 5],
+                        [6, 6]]])
+
+indice = torch.LongTensor([2, 1])
+x.size()                # torch.Size([3, 2, 2])
+
+y = x.index_select(dim=0, index=indice)
+y.size()                # torch.Size([2, 2, 2])
+
+print(y)                # tensor([[[5., 5.],
+                        #          [6., 6.]]
+                        #
+                        #         [[3., 3.],
+                        #          [4., 4.]]])
+
 ```
