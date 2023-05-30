@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 신경망의 기본 구성요소
+title: PyTorch 신경망의 기본 구성요소
 categories: [coder, nlp]
 tags:       [coder, nlp]
 description: >
